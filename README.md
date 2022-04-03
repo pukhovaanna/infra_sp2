@@ -3,12 +3,12 @@
 Произведения делятся на категории: «Книги», «Фильмы», «Музыка».
 
 # Шаблон наполнения .env файла
-DB_ENGINE=django.db.backends.postgresql # указываем, что работаем с postgresql
-DB_NAME=postgres # имя базы данных
-POSTGRES_USER=postgres # логин для подключения к базе данных
-POSTGRES_PASSWORD=postgres # пароль для подключения к БД
-DB_HOST=db # название сервиса (контейнера)
-DB_PORT=5432 # порт для подключения к БД 
+    DB_ENGINE=django.db.backends.postgresql # указываем, что работаем с postgresql
+    DB_NAME=postgres # имя базы данных
+    POSTGRES_USER=postgres # логин для подключения к базе данных
+    POSTGRES_PASSWORD=postgres # пароль для подключения к БД
+    DB_HOST=db # название сервиса (контейнера)
+    DB_PORT=5432 # порт для подключения к БД 
 
 # Алгоритм установки сервиса
 1. Скопируйте проект на свой компьютер ``` git clone https://github.com/pukhovaanna/infra_sp2.git ```
